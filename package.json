@@ -1,0 +1,23 @@
+{
+  "name": "ts-racer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shpadio/ts-racer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shpadio/ts-racer/issues"
+  },
+  "homepage": "https://github.com/shpadio/ts-racer#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
