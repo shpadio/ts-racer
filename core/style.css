@@ -1,0 +1,11 @@
+
+.road {
+		width: 70%;
+		height: 100%;
+		border: black;
+}
+
+.player {
+		width: 50px;
+		height: 100px;
+}
