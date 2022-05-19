@@ -44,7 +44,7 @@ export class Game {
 
         const mob = new Mob(500, 300, 10) as unknown as Node;
         this.canvas.append(mob);
-      });
+      }, 2000);
     }
   }
 }
