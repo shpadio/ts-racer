@@ -17,9 +17,10 @@ const startGame = () => {
   while (!player.isDead) {
     console.log(player.x,'x')
     console.log(player.y,'y')
-    player.increaseScore();
-    game.renderMobs();
+    game.run()
+    player.play(game.level)
   }
+
   game.finish();
 };
 

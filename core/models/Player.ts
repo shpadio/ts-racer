@@ -13,6 +13,11 @@ export class Player {
     this.isDead = isDead
   }
 
+  play(level: number){
+    this.increaseScore(level)
+    this.increaseSpeed()
+  }
+
   hit() {
     this.isDead = true
   }
@@ -25,9 +30,13 @@ export class Player {
 
   moveRight() {}
 
-  increaseScore() {
+  increaseSpeed(){
+    this.speed += 10
+  }
+
+  increaseScore(level: number) {
     setInterval(() => {
-      this.score +=10
+      this.score += level*10
     },1000)
   }
 }
