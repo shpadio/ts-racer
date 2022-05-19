@@ -1,7 +1,6 @@
 export class Game {
     constructor() {
     }
-
 }
 
 
@@ -28,7 +27,7 @@ export class Car {
 }
 
 
-export class Mob{
+export class Mob {
     constructor() {
     }
 
